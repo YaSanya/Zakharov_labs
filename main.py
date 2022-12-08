@@ -5,9 +5,9 @@ import random
 
 
 # Получение фрейма
+# В пути должен быть начальный эксель файл
 started_file_path = 'assets/started_file.xlsx'
 data_frame = pd.read_excel(started_file_path)
-
 
 # Формирование колонок и значений
 
